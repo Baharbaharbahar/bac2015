@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="controle.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajout</title>
+</head>
+<body>
+    <form action="ajout.php" method="post" name="a1">
+        <fieldset>
+            <legend>Ajout d'un pilote</legend>
+            <table>
+                <tr>
+                    <td><label for="">Matricule :</label></td>
+                    <td><input type="text" name="mat" id="mat"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Nom</label></td>
+                    <td><input type="text" name="nom" id="nom"></td>
+                </tr>
+                <tr>
+                    <td><label for="">prenom:</label></td>
+                    <td><input type="text" name="prenom" id="prenom"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Genre:</label></td>
+                    <td><input type="radio" name="genre" id="h"><label for="">Homme</label></td>
+                    <td><input type="radio" name="genre" id="f"><label for="">Femme</label></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email:</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Annuler"></td>
+                    <td><input type="submit" value="Ajouter" onclick="ajouter()"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

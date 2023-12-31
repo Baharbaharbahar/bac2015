@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="controle.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistiques</title>
+</head>
+<body>
+    <form action="statistiques.php" method="post" name="f1">
+        <fieldset>
+            <legend>Statistiques</legend>
+            <table>
+                <tr>
+                    <td><label for="">pilote:</label></td>
+                    <td><select name="choix" id="choix">
+                        <option value="">Selectionnez un pilote </option>
+                        <option value="">Bellili lamine </option>
+                        <option value="">Chawachi noura </option>
+                        <option value="">kefi youssra</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Editer" onclick="editer()"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
